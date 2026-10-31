@@ -1,0 +1,13 @@
+{
+  "name": "botnexus-proxy",
+  "version": "1.0.0",
+  "description": "BotNexus proxy: forwards botnexusbot.bonto.run to the BotNexus bot.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}
