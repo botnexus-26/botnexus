@@ -39,7 +39,7 @@ const PORT = Number(process.env.PORT) || 25254;
 const BOT_PORT = Number(process.env.BOT_PORT) || 2728;
 
 const PUBLIC_URL = String(
-  process.env.PUBLIC_URL || 'https://botnexus.apps.bot-hosting.cloud'
+  process.env.PUBLIC_URL || 'https://botnexus-8lxu.onrender.com'
 ).trim().replace(/\/+$/, '');
 
 const PUBLIC_HOST = PUBLIC_URL.replace(/^https?:\/\//i, '');
