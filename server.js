@@ -45,7 +45,7 @@ const PUBLIC_URL = String(
 const PUBLIC_HOST = PUBLIC_URL.replace(/^https?:\/\//i, '');
 
 const STATUS_URL = String(
-  process.env.STATUS_URL || 'https://botnexus-status.xnetsite.xyz'
+  process.env.STATUS_URL || 'https://botnexus.instatus.com'
 ).trim().replace(/\/+$/, '');
 
 const MAX_PROXY_BODY_BYTES = 10 * 1024 * 1024;   // same as the bot's 10mb body limit
@@ -53,7 +53,7 @@ const UPSTREAM_TIMEOUT_MS = 30 * 1000;
 
 function parseBotTarget(rawHost, fallbackPort) {
 
-  let value = String(rawHost || '').trim() || '195.123.189.186';
+  let value = String(rawHost || '').trim() || 'http://195.123.189.234';
 
   value = value.replace(/^https?:\/\//i, '').replace(/\/+$/, '');
 
